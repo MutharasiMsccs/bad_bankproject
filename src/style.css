@@ -118,7 +118,7 @@ img {
   }
   
   .create-account-page input {
-    width: 30%;
+    width: 100%;
     padding: 8px;
     margin-top: 5px;
     margin-bottom: 15px;
@@ -165,7 +165,7 @@ img {
   }
   
   .deposit-page input {
-    width: 30%;
+    width: 100%;
     padding: 8px;
     margin-top: 5px;
     margin-bottom: 15px;
