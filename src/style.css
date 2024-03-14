@@ -1,0 +1,292 @@
+body {
+  margin: 0;
+   padding: 0;
+  
+  
+  background-image: url(../src/img/investment-5241253_1280.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: 'Arial', sans-serif; 
+  color: #fff;
+}
+nav{
+  position: fixed;
+}
+
+
+
+/* src/components/style.css */
+.btn{
+  background-color: white;
+  color: 'black'
+}
+.btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+.home-page {
+    text-align: center;
+    padding: 20px;
+     
+  }
+  .home-page button{
+    font-size: 20px;
+    color:yellow;
+  }
+  
+  
+  .home-page img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+  .home-page h2{
+    text-shadow: 2px 2px 5px black;
+  }
+  .home-page p{
+    font-size: 20px;
+    
+  }
+  
+  
+  
+  .center h2 {
+    margin-bottom: 10px;
+  }
+  
+  .center p {
+    margin-bottom: 20px;
+    font-size: 50px;
+    
+  }
+
+  .transparent-input {
+    background-color: transparent;
+    border: 1px solid #ccc; 
+    padding: 5px; 
+    color: #fff;
+  }
+  
+
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+.center{
+    text-align: center;
+    color:yellow; 
+}
+
+
+
+
+
+/* src/components/style.css */
+
+.create-account-page {
+    text-align: center;
+    max-width: 700px;
+    
+  margin: 80px 600px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  .img-fluid{
+    height: 130px;
+    width: 130px;
+  }
+  
+  .create-account-page h2 {
+    color:yellow ; 
+    margin-bottom: 20px;
+    font-size: 30px;
+  }
+  
+  .create-account-page label {
+    display: block;
+    margin-top: 10px;
+    color:yellow; 
+    font-size: 30px;
+  }
+  
+  .create-account-page input {
+    width: 30%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+  }
+  
+  .create-account-page button {
+    background-color:white; 
+    color: black; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .create-account-page button:hover {
+    background-color:white; 
+  }
+  
+
+
+
+
+
+.deposit-page {
+  max-width: 700px;
+  margin: 100px 650px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+  }
+  
+  .deposit-page h1,
+  .deposit-page p,
+  .deposit-page #balance,
+  .deposit-page label {
+    color: yellow;
+     
+    
+  }
+  .deposit-page p{
+    font-size: 20px;
+  }
+  
+  .deposit-page input {
+    width: 30%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    
+  }
+  
+  .deposit-page button {
+    background-color: white; 
+    color: black; 
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .deposit-page button:hover {
+    background-color: white; 
+  }
+  
+
+
+  /* DetailPage.css */
+.detail-page {
+  max-width: 600px;
+  margin: 100px 650px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.detail-page h1 {
+  color:yellow;
+}
+
+.detail-page p {
+  margin: 10px 0;
+  color:  yellow;
+  font-size: 20px;
+}
+
+/* Media Queries for Mobile View */
+@media only screen and (max-width: 600px) {
+  /* Common styles */
+  .home-page, .create-account-page, .deposit-page, .detail-page {
+    padding: 10px;
+  }
+
+  /* Specific page styles */
+  .create-account-page, .deposit-page, .detail-page {
+    max-width: 90%;
+    margin: 50px auto;
+  }
+
+  .create-account-page input,
+  .deposit-page input {
+    width: 100%;
+  }
+
+  /* Navigation styles */
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color:gray;
+    z-index: 1000;
+    padding: 10px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  nav ul li a {
+    display: block;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+  }
+
+  nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+
+  /* Hamburger menu */
+  .menu-icon {
+    display: block;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    color: #fff;
+    z-index: 1100;
+  }
+
+  .menu-icon i {
+    font-size: 24px;
+  }
+
+  /* Menu display */
+  #menuToggle {
+    display: none;
+  }
+
+  #menuToggle:checked + nav ul {
+    display: block;
+  }
+}
+
+
+
+
+
+
