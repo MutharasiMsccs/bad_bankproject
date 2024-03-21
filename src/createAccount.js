@@ -3,7 +3,7 @@ import './style.css';
 import { useAppContext } from './Appcontext';
 
 const CreateAccountPage = () => {
-  const { setLoggedInUser, loggedInUser ,setUsers,users} = useAppContext();
+  const { setLoggedInUser, loggedInUser ,setUsers,users,setCurrentPage} = useAppContext();
   
   const [name, setName] = useState('');
   const [mailId, setMailId] = useState('');
@@ -65,6 +65,8 @@ const CreateAccountPage = () => {
     setName('');
     setMailId('');
     setPassword('');
+    setCurrentPage('deposit')
+    
     
     alert(`Your Account has been Created Successfully
     and your account number is ${accountNumber}`)

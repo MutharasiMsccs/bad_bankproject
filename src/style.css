@@ -4,10 +4,12 @@ body {
   
   
   background-image: url(../src/img/investment-5241253_1280.jpg);
+
   background-size: cover;
   background-position: center;
   font-family: 'Arial', sans-serif; 
-  color: #fff;
+  color: #fff ;
+  
 }
 nav{
   position: fixed;
@@ -59,9 +61,9 @@ nav{
 
   .transparent-input {
     background-color: transparent;
-    border: 1px solid #ccc; 
+    border: black 1px solid ; 
     padding: 5px; 
-    color: #fff;
+    color: black;
   }
 
 img {
@@ -69,6 +71,7 @@ img {
     margin-left: auto;
     margin-right: auto;
     width: 30%;
+    
 }
 
 .center{
@@ -86,6 +89,8 @@ img {
   border: 1px solid #ccc;
   border-radius: 15px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  opacity: 0.6;
   }
   .img-fluid{
     height: 130px;
@@ -93,7 +98,8 @@ img {
   }
   
   .create-account-page h2 {
-    color:yellow ; 
+    font-weight: bold;
+    color: black;
     margin-bottom: 20px;
   
   }
@@ -101,7 +107,8 @@ img {
   .create-account-page label {
     display: block;
     margin-top: 10px;
-    color:yellow; 
+    font-weight: bold;
+    color: black;
     font-size: 30px;
   }
   
@@ -117,7 +124,7 @@ img {
     background-color:white; 
     color: black; 
     padding: 10px 20px;
-    border: none;
+    border: black 1px solid;
     border-radius: 5px;
     cursor: pointer;
   }
@@ -131,16 +138,19 @@ img {
   max-width: 700px;
   margin: 100px auto;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: black 1px solid ; 
   border-radius: 8px;
   box-shadow: 0 0 100px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  opacity: 0.6;
   }
   
   .deposit-page h1,
   .deposit-page p,
   .deposit-page #balance,
   .deposit-page label {
-    color: yellow;
+    font-weight: bold;
+    color: black;
      
     
   }
@@ -158,6 +168,7 @@ img {
     box-sizing: border-box;
     
   }
+  
   
   .deposit-page button {
     background-color: white; 
@@ -181,16 +192,23 @@ img {
   border: 1px solid #ccc;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  /* box-shadow: 10px 5px 5px black; */
+  background-color: #fff;
+  opacity: 0.6;
+  
 }
 
 .detail-page h1 {
-  color:yellow;
+  font-weight: bold;
+    color: black;
+     
 }
 
 .detail-page p {
   margin: 10px 0;
-  color:  yellow;
-  font-size: 20px;
+  font-weight: bold;
+    color: black;
+     
 }
 
 @media only screen and (max-width: 600px) {
