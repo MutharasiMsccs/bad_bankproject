@@ -21,7 +21,10 @@ const LoginPage = () => {
 
     setAccountNumber('');
     setPassword('');
-    setCurrentPage('');
+   
+      setCurrentPage('detail');
+  
+  
   };
   
 
