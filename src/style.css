@@ -128,7 +128,7 @@ img {
 
 .deposit-page {
   max-width: 700px;
-  margin: 100px 650px;
+  margin: 100px auto;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -172,7 +172,7 @@ img {
   /* DetailPage.css */
 .detail-page {
   max-width: 600px;
-  margin: auto;
+  margin:100px auto;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 8px;
