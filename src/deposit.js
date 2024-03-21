@@ -1,5 +1,6 @@
 
 import React, { useState } from 'react';
+import './style.css';
 import { useAppContext } from './Appcontext';
 
 const DepositPage = () => {
